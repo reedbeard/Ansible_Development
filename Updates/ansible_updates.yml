@@ -4,6 +4,6 @@
 
   tasks:
     - name: update servers
-      apt:
+      dnf:
         upgrade: yes
         update_cache: yes 
