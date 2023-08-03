@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+
+  tasks:
+    - name: update servers
+      dnf:
+        upgrade: yes
+        update_cache: yes 
